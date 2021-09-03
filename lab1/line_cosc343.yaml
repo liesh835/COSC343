@@ -1,0 +1,15 @@
+board_height: 841
+board_width: 1189
+board_color: 235, 235, 235
+robots:
+  - name: robot0
+    center_x: 250
+    center_y: 300
+    orientation: 0
+    type: 'robot_cosc343.yaml'
+obstacles:
+  - name: 'border'
+    depth: 30
+    color: 59, 60, 54
+    outer_spacing: 153
+    type: 'border'
